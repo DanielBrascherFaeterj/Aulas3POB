@@ -1,4 +1,4 @@
-package areacirculo;
+package somadoisnumeros;
 
 import java.util.Scanner;
 
