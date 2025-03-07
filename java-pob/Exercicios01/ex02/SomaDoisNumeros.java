@@ -1,4 +1,4 @@
-package somadoisnumeros;
+package ex02;
 
 import java.util.Scanner;
 
