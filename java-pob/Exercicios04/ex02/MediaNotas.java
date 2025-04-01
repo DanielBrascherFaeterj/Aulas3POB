@@ -16,7 +16,8 @@ public class MediaNotas {
             tot += array[i];
         }
         sc.close();
-        
+
+        System.out.println(tot/4);
         if(tot/4 >= 7){
             System.out.println("aprovado!");
         }
