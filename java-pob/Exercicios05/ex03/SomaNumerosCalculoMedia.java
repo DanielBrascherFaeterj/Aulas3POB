@@ -9,7 +9,7 @@ public class SomaNumerosCalculoMedia {
         Scanner sc = new Scanner(System.in);
         ArrayList<Double> nums = new ArrayList<>();
         
-        System.out.println("Digite números (digite -1 para finalizar):");
+        System.out.println("Digite numeros (-1 para sair):");
         while (true) {
             double num = sc.nextDouble();
             if (num == -1) {
@@ -17,7 +17,8 @@ public class SomaNumerosCalculoMedia {
             }
             nums.add(num);
         }
-        
+        sc.close();
+
         double soma = 0;
         for (double n : nums) {
             soma += n;
@@ -25,9 +26,8 @@ public class SomaNumerosCalculoMedia {
         
         double media = nums.isEmpty() ? 0 : soma / nums.size();
         
-        System.out.println("Soma dos números: " + soma);
-        System.out.println("Média dos números: " + media);
+        System.out.println("Soma dos numeros: " + soma);
+        System.out.println("Media dos numeros: " + media);
         
-        sc.close();
     }
 }
