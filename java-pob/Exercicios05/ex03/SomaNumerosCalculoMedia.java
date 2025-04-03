@@ -20,8 +20,9 @@ public class SomaNumerosCalculoMedia {
         sc.close();
 
         double soma = 0;
-        for (double n : nums) {
-            soma += n;
+
+        for(int i = 0; i < nums.size(); i++){
+            soma += nums.get(i);
         }
         
         double media = nums.isEmpty() ? 0 : soma / nums.size();

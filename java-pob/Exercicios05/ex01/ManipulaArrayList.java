@@ -10,7 +10,7 @@ public class ManipulaArrayList {
         ArrayList<Integer> num = new ArrayList<>();
         
         while (true) {
-            System.out.print("Digite um numero (ou 'sair' para finalizar): ");
+            System.out.print("Digite um numero ('sair' para sair): ");
             String entrada = sc.next();
             
             if (entrada.equalsIgnoreCase("sair")) {
@@ -25,7 +25,7 @@ public class ManipulaArrayList {
             }
         }
         
-        System.out.printf("Números digitados: %d", num);
+        System.out.printf("Numeros digitados: %d", num);
         sc.close();
     }
 }
