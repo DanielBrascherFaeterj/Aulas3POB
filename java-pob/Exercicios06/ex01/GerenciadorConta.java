@@ -1,6 +1,6 @@
 package ex01;
 
-//import ex01.ContaBancaria;
+import ex01.ContaBancaria;
 
 import java.util.ArrayList;
 import java.util.Scanner;
