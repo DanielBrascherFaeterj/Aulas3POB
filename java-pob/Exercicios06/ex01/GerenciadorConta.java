@@ -1,13 +1,22 @@
 package ex01;
 
-import ex01.ContaBancaria;
+//import ex01.ContaBancaria;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class GerenciadorConta {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         ContaBancaria conta = null;
+        ArrayList<String> carros = new ArrayList<String>();
+        carros.add("teste");
+        carros.add("teste2");
+        carros.add("teste3");
+
+        for(String i: carros){
+            System.out.println(i);
+        }
 
         System.out.print("Digite o nome do titular da conta: ");
         String nomeTitular = scanner.nextLine();
